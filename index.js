@@ -1,5 +1,3 @@
-#!/usr/bin/env node
-
 const axios = require("axios");
 const say = require("say");
 const chalkAnimation = require("chalk-animation");
