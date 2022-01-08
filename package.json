@@ -1,8 +1,8 @@
 {
   "name": "joke-teller",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A CLI based joke teller",
-  "main": "src/index.js",
+  "main": "src/cli.js",
   "bin": {
     "joke": "bin/joke"
   },
@@ -26,6 +26,7 @@
   "dependencies": {
     "axios": "^0.24.0",
     "chalk-animation": "^1.6.0",
+    "esm": "^3.2.25",
     "say": "^0.16.0"
   }
 }
